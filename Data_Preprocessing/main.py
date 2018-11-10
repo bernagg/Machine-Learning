@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Created on Sat Nov 10 12:36:03 2018
+
+@author: Bernabé Gonzalez García bernabegoga@gmail.com
+"""
 # DATA Preprocessing
 
 #Importing the libraries
