@@ -27,7 +27,10 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 
-# Create classifier here
+# Fitting Logistic Regression to the Training Set
+from sklearn.linear_model import LogisticRegression
+classifier = LogisticRegression(random_state = 0)
+classifier.fit(X_train, Y_train)
 
 # Predicting the Test set results
 Y_pred = classifier.predict(X_test)
